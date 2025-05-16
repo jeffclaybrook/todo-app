@@ -13,6 +13,8 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Todo App",
   description: "A simple todo app built with Next.js",
+  manifest: "/manifest.json",
+  themeColor: "#ffffff",
   openGraph: {
     title: "Todo App",
     description: "A simple todo app built with Next.js",
@@ -39,6 +41,9 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
+        <head>
+          <link rel="apple-touch-icon" href="/icon-192.png" />
+        </head>
         <body className={`${inter.variable} antialiased`}>
           {children}
           <Toaster position="bottom-center" />
