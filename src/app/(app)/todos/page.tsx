@@ -161,7 +161,7 @@ export default function Todos() {
       onToggleView={onToggleView}
      />
      <Tabs defaultValue="pending" className="pt-18">
-      <TabsList className="grid grid-cols-2 w-full mb-4">
+      <TabsList>
        <TabsTrigger value="pending" onClick={() => setTab("pending")}>Pending</TabsTrigger>
        <TabsTrigger value="completed" onClick={() => setTab("completed")}>Completed</TabsTrigger>
       </TabsList>
