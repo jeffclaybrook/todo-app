@@ -76,7 +76,7 @@ export function Header({
      size="icon"
      aria-label="Toggle view"
      onClick={onToggleView}
-     className="rounded-full"
+     className="rounded-full hidden lg:inline-flex"
     >
      {view === "grid"
       ? <ListIcon className="size-6" />

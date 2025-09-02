@@ -175,7 +175,7 @@ export default function Todos() {
        ) : (
         <div
          className={view === "grid"
-          ? "grid grid-cols-2 lg:grid-cols-4 gap-2 px-2 lg:gap-4 lg:px-4"
+          ? "grid lg:grid-cols-4 gap-2 px-2 lg:gap-4 lg:px-4"
           : "flex flex-col gap-2 px-2 lg:gap-4 lg:px-4"
          }
         >
@@ -200,7 +200,7 @@ export default function Todos() {
        ) : (
         <div
          className={view === "grid"
-          ? "grid grid-cols-2 lg:grid-cols-4 gap-2 px-2 lg:gap-4 lg:px-4"
+          ? "grid lg:grid-cols-4 gap-2 px-2 lg:gap-4 lg:px-4"
           : "flex flex-col gap-2 px-2 lg:gap-4 lg:px-4"
          }
         >
